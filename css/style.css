@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Aurebesh English';
+    src: url('AurebeshEnglishRegular-rjeO.ttf');
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    border: 2px solid white;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.header h1 {
+    font-family: 'Aurebesh English';
+    color: white;
+}
+
+.header img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
