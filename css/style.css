@@ -9,20 +9,26 @@ body {
 
 .header {
     display: flex;
-    justify-content: center; /* align horizontal */
+    justify-content: left; /* align horizontal */
     align-items: center; /* align vertical */
     border: 2px solid white;
     min-height: 50px;
+    min-width: auto;
     padding: 10px;
 }
 
-.header h1 {
+.headertext h1 {
     font-family: 'Aurebesh English';
     color: white;
 }
 
-.header img {
+.headerlogo img {
     width: 100px;
-    float: left;
+    justify-items: left;
     margin-right: 10px;
+}
+
+.canvas {
+    border: 2px solid white;
+    background: url("/img/RideVehicleDiagram.png");
 }

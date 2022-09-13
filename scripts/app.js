@@ -1,5 +1,6 @@
 var canvas = document.getElementById("myCanvas");
 
+
 var ctx = canvas.getContext("2d");
 resize();
 
@@ -21,7 +22,7 @@ function setPosition(e) {
 function draw(e) {
   if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
 
-  var color = document.getElementById("hex").value;
+  var color = "#FFFFFF";
 
   ctx.beginPath(); // begin the drawing path
 
